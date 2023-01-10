@@ -1,0 +1,264 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-noob.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉clojure-noob.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; No nrepl port file found.
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-noob.core꞉> 
+; Jack-in done.
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (output.calva-repl:1:7857).
+; clj꞉clojure-noob.core꞉>
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/-main
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/-main
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/-main
+clj꞉clojure-noob.core꞉> 
+; Evaluating file: core.clj
+#'clojure-noob.core/-main
+clj꞉clojure-noob.core꞉> 
+I'm a little teapot!
+nil
+clj꞉clojure-noob.core꞉> 
+; Connecting ...
+; No nrepl port file found.
+#'clojure-noob.core/-main
+clj꞉clojure-noob.core꞉> 
+Hello, World!
+nil
+clj꞉clojure-noob.core꞉> 
+10
+clj꞉clojure-noob.core꞉> 
+24
+clj꞉clojure-noob.core꞉> 
+1
+clj꞉clojure-noob.core꞉> 
+10
+clj꞉clojure-noob.core꞉> 
+no prompt here!
+4
+clj꞉clojure-noob.core꞉> 
+6
+clj꞉clojure-noob.core꞉> 
+"It was the panda in the library with a dust buster"
+clj꞉clojure-noob.core꞉> 
+"By Zeus's hammer!"
+clj꞉clojure-noob.core꞉> 
+"By Aquaman's trident!"
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+; Syntax error compiling if at (/home/codi/code/learn-clojure/clojure-noob/src/clojure_noob/core.clj:35:1).
+; Too many arguments to if
+clj꞉clojure-noob.core꞉> 
+Success!
+"By Zeus's hammer!"
+clj꞉clojure-noob.core꞉> 
+Success!
+"By Zeus's hammer!"
+clj꞉clojure-noob.core꞉> 
+Success!
+"abra cadabra"
+clj꞉clojure-noob.core꞉> 
+false
+clj꞉clojure-noob.core꞉> 
+true
+clj꞉clojure-noob.core꞉> 
+"bears beets Battlestar Galactica"
+clj꞉clojure-noob.core꞉> 
+"nil is falsey"
+clj꞉clojure-noob.core꞉> 
+true
+clj꞉clojure-noob.core꞉> 
+true
+clj꞉clojure-noob.core꞉> 
+false
+clj꞉clojure-noob.core꞉> 
+:large_I_mean_venti
+clj꞉clojure-noob.core꞉> 
+false
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+:hot_coffee
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/failed-protagonist-names
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/failed-protagonist-names
+clj꞉clojure-noob.core꞉> 
+["Larry Potter" "Doreen the Explorer" "The Incredible Bulk"]
+clj꞉clojure-noob.core꞉> 
+; Syntax error compiling at (/home/codi/code/learn-clojure/clojure-noob/src/clojure_noob/core.clj:84:1).
+; Unable to resolve symbol: error-message in this context
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/error-message
+clj꞉clojure-noob.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!"
+clj꞉clojure-noob.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE DOOOOOOOOOMED!"
+clj꞉clojure-noob.core꞉> 
+{:b 2, :a 1}
+clj꞉clojure-noob.core꞉> 
+1
+clj꞉clojure-noob.core꞉> 
+{:c "ho hum"}
+clj꞉clojure-noob.core꞉> 
+"unicorns?"
+clj꞉clojure-noob.core꞉> 
+"ho hum"
+clj꞉clojure-noob.core꞉> 
+"The Human Coffeepot"
+clj꞉clojure-noob.core꞉> 
+1
+clj꞉clojure-noob.core꞉> 
+"No gnome knows homes like Noah knows"
+clj꞉clojure-noob.core꞉> 
+3
+clj꞉clojure-noob.core꞉> 
+{:name "Pugley Winterbottom"}
+clj꞉clojure-noob.core꞉> 
+["creepy" "full" "moon"]
+clj꞉clojure-noob.core꞉> 
+[1 2 3 4]
+clj꞉clojure-noob.core꞉> 
+(1 2 3 4)
+clj꞉clojure-noob.core꞉> 
+:a
+clj꞉clojure-noob.core꞉> 
+:c
+clj꞉clojure-noob.core꞉> 
+#{20 :icicle "kurt vonnegut"}
+clj꞉clojure-noob.core꞉> 
+#{1 2}
+clj꞉clojure-noob.core꞉> 
+#{:b :a}
+clj꞉clojure-noob.core꞉> 
+#{4 3}
+clj꞉clojure-noob.core꞉> 
+true
+clj꞉clojure-noob.core꞉> 
+false
+clj꞉clojure-noob.core꞉> 
+true
+clj꞉clojure-noob.core꞉> 
+:a
+clj꞉clojure-noob.core꞉> 
+:a
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+nil
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/too-enthusiastic
+clj꞉clojure-noob.core꞉> 
+"OH. MY. GOD! Zelda YOU ARE MOST DEFINITELY LIKE THE BEST MAN SLASH WOMAN EVER I LOVE YOU AND WE SHOULD RUN AWAY SOMEWHERE"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/no-params
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/no-params
+clj꞉clojure-noob.core꞉> 
+" I take no parameters!"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/one-param
+clj꞉clojure-noob.core꞉> 
+"I take one parameter: 1"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/two-params
+clj꞉clojure-noob.core꞉> 
+"Two parameters! That's nothing! Pah! I will smoosh them together to spite you!12"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/x-chop
+clj꞉clojure-noob.core꞉> 
+"I slap chop Kanye West! Take that!"
+clj꞉clojure-noob.core꞉> 
+"I karate chop Elon Musk! Take that!"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/weird-arity
+clj꞉clojure-noob.core꞉> 
+"Destiny dressed you this morning, my friend, and now Fear is\n    trying to pull off your pants. If you give up, if you give in, \n    you're gonna end up naked with Fear just standing there laughing\n    at your dangling unmentionables! - the Tick"
+clj꞉clojure-noob.core꞉> 
+6
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/codger-communication
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/codger
+clj꞉clojure-noob.core꞉> 
+("Get off my lawn, Billy!!!" "Get off my lawn, Anne-Marie!!!" "Get off my lawn, The Incredible Bulk!!!")
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/favorite-things
+clj꞉clojure-noob.core꞉> 
+"Hi, Doreen¿here are my favorite things: gum, shoes, kara-te"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/favorite-things
+clj꞉clojure-noob.core꞉> 
+"Hi, Doreen, here are my favorite things: gum, shoes, kara-te"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/my-first
+clj꞉clojure-noob.core꞉> 
+"oven"
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/chooser
+clj꞉clojure-noob.core꞉> 
+Your first choice is: Marmalade
+Your second choice is: Handsome Jack
+We're going to ignore the rest of your choices. Pigpen, Aquaman
+nil
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/chooser
+clj꞉clojure-noob.core꞉> 
+Your first choice is: Marmalade
+Your second choice is: Handsome Jack
+We're going to ignore the rest of your choices. Here they are in case you need to cry over them: Pigpen, Aquaman
+nil
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/announce-treasure-location
+clj꞉clojure-noob.core꞉> 
+; Syntax error compiling at (/home/codi/code/learn-clojure/clojure-noob/src/clojure_noob/core.clj:237:1).
+; Unable to resolve symbol: lng in this context
+clj꞉clojure-noob.core꞉> 
+Treasure lat: 28.22
+Treasure lng: 81.33
+nil
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.core/alt-announce-treasure-location
+clj꞉clojure-noob.core꞉> 
+Treasure lat: 28.22
+Treasure lng: 81.33
+nil
+clj꞉clojure-noob.core꞉> 
